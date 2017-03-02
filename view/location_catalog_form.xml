@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form string="Catalog">
+        <label name="name"/>
+        <field name="name"/>
+        <label name="reference"/>
+        <field name="reference"/>
+        <notebook>
+          <page string="Lines" id="lines">
+            <field name="lines" colspan="4"/>
+          </page>
+          <page string="Users" id="users">
+            <field name="users" widget="many2many"/>
+          </page>
+        </notebook>
+</form>

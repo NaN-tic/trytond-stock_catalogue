@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.user,catalogue:"
+msgid "Catalogue"
+msgstr "Catàleg"
+
+msgctxt "field:res.user,location:"
+msgid "Location"
+msgstr "Ubicació"
+
+msgctxt "field:stock.location.catalogue,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:stock.location.catalogue,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:stock.location.catalogue,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:stock.location.catalogue,lines:"
+msgid "Lines"
+msgstr "Línies"
+
+msgctxt "field:stock.location.catalogue,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.location.catalogue,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.location.catalogue,reference:"
+msgid "Reference"
+msgstr "Referència"
+
+msgctxt "field:stock.location.catalogue,users:"
+msgid "Users"
+msgstr "Usuaris"
+
+msgctxt "field:stock.location.catalogue,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:stock.location.catalogue,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:stock.location.catalogue.line,catalogue:"
+msgid "Catalogue"
+msgstr "Catàleg"
+
+msgctxt "field:stock.location.catalogue.line,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:stock.location.catalogue.line,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:stock.location.catalogue.line,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:stock.location.catalogue.line,max_quantity:"
+msgid "Maximum quantity"
+msgstr "Quantitat màxima"
+
+msgctxt "field:stock.location.catalogue.line,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:stock.location.catalogue.line,product:"
+msgid "Product"
+msgstr "Productes"
+
+msgctxt "field:stock.location.catalogue.line,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.location.catalogue.line,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:stock.location.catalogue.line,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "model:ir.action,name:act_location_catalog_form"
+msgid "Catalogs"
+msgstr "Catàlegs"
+
+msgctxt "model:ir.ui.menu,name:menu_catalogs"
+msgid "Catalogs"
+msgstr "Catálogos"
+
+msgctxt "model:stock.location.catalogue,name:"
+msgid "Catalogue of products for a warehouse"
+msgstr "Catàlegs de productes"
+
+msgctxt "model:stock.location.catalogue.line,name:"
+msgid "Lines of products for a catalogue"
+msgstr "Línies de productes per catàlegs"
+
+msgctxt "view:res.user:"
+msgid "Locations"
+msgstr "Ubicacions"
+
+msgctxt "view:stock.location.catalogue.line:"
+msgid "Catalogs"
+msgstr "Catàlegs"
+
+msgctxt "view:stock.location.catalogue:"
+msgid "Catalog"
+msgstr "Catàleg"
+
+msgctxt "view:stock.location.catalogue:"
+msgid "Catalogs"
+msgstr "Catàlegs"
+
+msgctxt "view:stock.location.catalogue:"
+msgid "Lines"
+msgstr "Línies"
+
+msgctxt "view:stock.location.catalogue:"
+msgid "Users"
+msgstr "Usuaris"

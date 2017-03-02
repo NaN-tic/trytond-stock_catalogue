@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- Catalog -->
+        <record model="ir.ui.view" id="location_catalog_view_form">
+          <field name="model">stock.location.catalogue</field>
+          <field name="type">form</field>
+          <field name="name">location_catalog_form</field>
+        </record>
+        <record model="ir.ui.view" id="location_catalog_view_tree">
+          <field name="model">stock.location.catalogue</field>
+          <field name="type">tree</field>
+          <field name="name">location_catalog_tree</field>
+        </record>
+
+        <!-- Catalog lines -->
+        <record model="ir.ui.view" id="location_catalog_lines_view_tree">
+          <field name="model">stock.location.catalogue.line</field>
+          <field name="type">tree</field>
+          <field name="name">location_catalog_line_tree</field>
+        </record>
+
+
+        <!-- Menu entry -->
+        <record model="ir.action.act_window" id="act_location_catalog_form">
+            <field name="name">Catalogs</field>
+            <field name="res_model">stock.location.catalogue</field>
+        </record>
+        <menuitem name="Catalogs" parent="stock.menu_stock"
+            id="menu_catalogs" sequence="90"
+            action="act_location_catalog_form"/>
+    </data>
+</tryton>
