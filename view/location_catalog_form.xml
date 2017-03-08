@@ -6,6 +6,8 @@ this repository contains the full copyright notices and license terms. -->
         <field name="name"/>
         <label name="reference"/>
         <field name="reference"/>
+        <label name="location"/>
+        <field name="location"/>
         <notebook>
           <page string="Lines" id="lines">
             <field name="lines" colspan="4"/>

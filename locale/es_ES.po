@@ -4,137 +4,138 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "field:res.user,catalogue:"
 msgid "Catalogue"
-msgstr "Catàleg"
+msgstr "Catàlogo"
 
 msgctxt "field:res.user,location:"
 msgid "Location"
-msgstr "Ubicació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue,lines:"
 msgid "Lines"
-msgstr "Línies"
+msgstr "Lineas"
 
 msgctxt "field:stock.location.catalogue,location:"
 msgid "Location"
-msgstr "Ubicació"
+msgstr "Ubicación"
 
 msgctxt "field:stock.location.catalogue,name:"
 msgid "Name"
-msgstr "Nom"
+msgstr "Nombre"
 
 msgctxt "field:stock.location.catalogue,rec_name:"
 msgid "Name"
-msgstr "Nom"
+msgstr "Nombre"
 
 msgctxt "field:stock.location.catalogue,reference:"
 msgid "Reference"
-msgstr "Referència"
+msgstr "Referencia"
 
 msgctxt "field:stock.location.catalogue,users:"
 msgid "Users"
-msgstr "Usuaris"
+msgstr "Usuarios"
 
 msgctxt "field:stock.location.catalogue,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue.line,catalogue:"
 msgid "Catalogue"
-msgstr "Catàleg"
+msgstr "Catálogo"
 
 msgctxt "field:stock.location.catalogue.line,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue.line,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue.line,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue.line,max_quantity:"
 msgid "Maximum quantity"
-msgstr "Quantitat màxima"
+msgstr "Cantidad máxima"
 
 msgctxt "field:stock.location.catalogue.line,notes:"
 msgid "Notes"
-msgstr "Notes"
+msgstr "Notas"
 
 msgctxt "field:stock.location.catalogue.line,product:"
 msgid "Product"
-msgstr "Productes"
+msgstr "Producto"
 
 msgctxt "field:stock.location.catalogue.line,rec_name:"
 msgid "Name"
-msgstr "Nom"
+msgstr "Nombre"
 
 msgctxt "field:stock.location.catalogue.line,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr ""
 
 msgctxt "field:stock.location.catalogue.line,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr ""
 
 msgctxt "help:stock.location.catalogue,location:"
 msgid "Location which will be used for the 'From locarion' field"
-msgstr "Ubiacció que s'utilitzara per el camp 'Cap a l'ubicacció' del alabrà"
+msgstr ""
+"Ubicación que sera utilitzada para rellenar el campo 'Desde la ubicación' en"
+" los albaranes"
 
 msgctxt "model:ir.action,name:act_location_catalog_form"
 msgid "Catalogs"
-msgstr "Catàlegs"
+msgstr ""
 
 msgctxt "model:ir.ui.menu,name:menu_catalogs"
 msgid "Catalogs"
-msgstr "Catálogos"
+msgstr ""
 
 msgctxt "model:stock.location.catalogue,name:"
 msgid "Catalogue of products for a warehouse"
-msgstr "Catàlegs de productes"
+msgstr "Catálogo de productes per un magatzem"
 
 msgctxt "model:stock.location.catalogue.line,name:"
 msgid "Lines of products for a catalogue"
-msgstr "Línies de productes per catàlegs"
+msgstr "Lineas de productos para un catàlogo"
 
 msgctxt "view:res.user:"
 msgid "Locations"
-msgstr "Ubicacions"
+msgstr ""
 
-#, fuzzy
 msgctxt "view:stock.location.catalogue.line:"
 msgid "Catalogs"
-msgstr "Catàlegs"
+msgstr "Catàlogos"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Catalog"
-msgstr "Catàleg"
+msgstr "Catálogo"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Catalogs"
-msgstr "Catàlegs"
+msgstr "Catàlogos"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Lines"
-msgstr "Línies"
+msgstr "LIneas"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Users"
-msgstr "Usuaris"
+msgstr "Usuarios"

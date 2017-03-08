@@ -14,6 +14,8 @@ class Catalogue(ModelSQL, ModelView):
     name = fields.Char('Name', required=True)
     reference = fields.Char('Reference')
     users = fields.One2Many('res.user', 'catalogue', 'Users')
+    location = fields.Many2One('stock.location', 'Location', required=True,
+        help='Location which will be used for the \'From location\' field')
 
 
 class CatalogueLines(ModelSQL, ModelView):
