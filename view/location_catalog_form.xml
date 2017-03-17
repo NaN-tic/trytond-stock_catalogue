@@ -4,8 +4,8 @@ this repository contains the full copyright notices and license terms. -->
 <form string="Catalog">
         <label name="name"/>
         <field name="name"/>
-        <label name="reference"/>
-        <field name="reference"/>
+        <label name="code"/>
+        <field name="code"/>
         <label name="location"/>
         <field name="location"/>
         <notebook>

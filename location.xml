@@ -30,6 +30,7 @@ this repository contains the full copyright notices and license terms. -->
         </record>
         <menuitem name="Catalogs" parent="stock.menu_stock"
             id="menu_catalogs" sequence="90"
-            action="act_location_catalog_form"/>
+            action="act_location_catalog_form"
+            icon="tryton-list"/>
     </data>
 </tryton>

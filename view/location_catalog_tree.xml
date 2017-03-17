@@ -3,5 +3,5 @@
 this repository contains the full copyright notices and license terms. -->
 <tree string="Catalogs">
     <field name="name"/>
-    <field name="reference"/>
+    <field name="code"/>
 </tree>

@@ -12,10 +12,14 @@ class Catalogue(ModelSQL, ModelView):
 
     lines = fields.One2Many('stock.location.catalogue.line', 'catalogue', 'Lines')
     name = fields.Char('Name', required=True)
-    reference = fields.Char('Reference')
+    code = fields.Function(fields.Integer('Code', readonly=True),
+            'get_code_value')
     users = fields.One2Many('res.user', 'catalogue', 'Users')
     location = fields.Many2One('stock.location', 'Location', required=True,
         help='Location which will be used for the \'From location\' field')
+
+    def get_code_value(self, name=None):
+        return self.id
 
 
 class CatalogueLines(ModelSQL, ModelView):
