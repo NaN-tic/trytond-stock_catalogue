@@ -22,7 +22,6 @@ this repository contains the full copyright notices and license terms. -->
           <field name="name">location_catalog_line_tree</field>
         </record>
 
-
         <!-- Menu entry -->
         <record model="ir.action.act_window" id="act_location_catalog_form">
             <field name="name">Catalogs</field>
