@@ -10,6 +10,10 @@ msgctxt "field:res.user,location:"
 msgid "Location"
 msgstr "Ubicació"
 
+msgctxt "field:stock.location.catalogue,code:"
+msgid "Code"
+msgstr "Codi"
+
 msgctxt "field:stock.location.catalogue,create_date:"
 msgid "Create Date"
 msgstr "Data de creació"
@@ -37,10 +41,6 @@ msgstr "Nom"
 msgctxt "field:stock.location.catalogue,rec_name:"
 msgid "Name"
 msgstr "Nom"
-
-msgctxt "field:stock.location.catalogue,reference:"
-msgid "Reference"
-msgstr "Referència"
 
 msgctxt "field:stock.location.catalogue,users:"
 msgid "Users"
@@ -95,8 +95,8 @@ msgid "Write User"
 msgstr "Usuari de modificació"
 
 msgctxt "help:stock.location.catalogue,location:"
-msgid "Location which will be used for the 'From locarion' field"
-msgstr "Ubiacció que s'utilitzara per el camp 'Cap a l'ubicacció' del alabrà"
+msgid "Location which will be used for the 'From location' field"
+msgstr "Ubiacció que s'utilitzara per el camp 'Cap a l'ubicacció' de l'alabrà"
 
 msgctxt "model:ir.action,name:act_location_catalog_form"
 msgid "Catalogs"
