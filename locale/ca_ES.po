@@ -20,7 +20,7 @@ msgstr "Usuari de creació"
 
 msgctxt "field:stock.location.catalogue,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:stock.location.catalogue,lines:"
 msgid "Lines"
@@ -48,11 +48,11 @@ msgstr "Usuaris"
 
 msgctxt "field:stock.location.catalogue,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data de modificación"
 
 msgctxt "field:stock.location.catalogue,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "field:stock.location.catalogue.line,catalogue:"
 msgid "Catalogue"
@@ -68,7 +68,7 @@ msgstr "Usuari de creació"
 
 msgctxt "field:stock.location.catalogue.line,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:stock.location.catalogue.line,max_quantity:"
 msgid "Maximum quantity"
@@ -80,7 +80,7 @@ msgstr "Notes"
 
 msgctxt "field:stock.location.catalogue.line,product:"
 msgid "Product"
-msgstr "Productes"
+msgstr "Producte"
 
 msgctxt "field:stock.location.catalogue.line,rec_name:"
 msgid "Name"
@@ -88,11 +88,11 @@ msgstr "Nom"
 
 msgctxt "field:stock.location.catalogue.line,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data de modificación"
 
 msgctxt "field:stock.location.catalogue.line,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "help:stock.location.catalogue,location:"
 msgid "Location which will be used for the 'From locarion' field"
@@ -118,7 +118,6 @@ msgctxt "view:res.user:"
 msgid "Locations"
 msgstr "Ubicacions"
 
-#, fuzzy
 msgctxt "view:stock.location.catalogue.line:"
 msgid "Catalogs"
 msgstr "Catàlegs"
