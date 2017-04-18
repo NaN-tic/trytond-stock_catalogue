@@ -8,19 +8,19 @@ msgstr "Catàlogo"
 
 msgctxt "field:res.user,location:"
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 msgctxt "field:stock.location.catalogue,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "Fecha de creación"
 
 msgctxt "field:stock.location.catalogue,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "Usuario de creación"
 
 msgctxt "field:stock.location.catalogue,id:"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "field:stock.location.catalogue,lines:"
 msgid "Lines"
@@ -48,11 +48,11 @@ msgstr "Usuarios"
 
 msgctxt "field:stock.location.catalogue,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "Fecha de modificación"
 
 msgctxt "field:stock.location.catalogue,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "Usuario de modificación"
 
 msgctxt "field:stock.location.catalogue.line,catalogue:"
 msgid "Catalogue"
@@ -60,15 +60,15 @@ msgstr "Catálogo"
 
 msgctxt "field:stock.location.catalogue.line,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "Fecha de creación"
 
 msgctxt "field:stock.location.catalogue.line,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "Usuario de creación"
 
 msgctxt "field:stock.location.catalogue.line,id:"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgctxt "field:stock.location.catalogue.line,max_quantity:"
 msgid "Maximum quantity"
@@ -88,11 +88,11 @@ msgstr "Nombre"
 
 msgctxt "field:stock.location.catalogue.line,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "Fecha de modificación"
 
 msgctxt "field:stock.location.catalogue.line,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "Usuario de modificación"
 
 msgctxt "help:stock.location.catalogue,location:"
 msgid "Location which will be used for the 'From locarion' field"
@@ -102,11 +102,11 @@ msgstr ""
 
 msgctxt "model:ir.action,name:act_location_catalog_form"
 msgid "Catalogs"
-msgstr ""
+msgstr "Catálogo"
 
 msgctxt "model:ir.ui.menu,name:menu_catalogs"
 msgid "Catalogs"
-msgstr ""
+msgstr "Catálogos"
 
 msgctxt "model:stock.location.catalogue,name:"
 msgid "Catalogue of products for a warehouse"
@@ -118,7 +118,7 @@ msgstr "Lineas de productos para un catàlogo"
 
 msgctxt "view:res.user:"
 msgid "Locations"
-msgstr ""
+msgstr "Ubicaciones"
 
 msgctxt "view:stock.location.catalogue.line:"
 msgid "Catalogs"
