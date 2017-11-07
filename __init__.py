@@ -10,4 +10,5 @@ def register():
         location.Catalogue,
         location.CatalogueLines,
         user.User,
+        user.UserCatalogue,
         module='stock_catalogue', type_='model')

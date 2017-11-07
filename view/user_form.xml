@@ -3,12 +3,11 @@
 this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook" position="inside">
-        <page string="Locations"
-            id="locations">
-            <label name="catalogue"/>
-            <field name="catalogue"/>
+        <page string="Locations" id="locations">
             <label name="location"/>
             <field name="location"/>
+            <newline/>
+            <field name="catalogues" colspan="4"/>
         </page>
     </xpath>
 </data>
