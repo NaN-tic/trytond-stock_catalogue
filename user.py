@@ -17,6 +17,13 @@ class User:
         cls._context_fields.insert(0, 'catalogues')
 
     catalogue = fields.Many2One('stock.location.catalogue', 'Catalogue')
+    from_location = fields.Many2One('stock.location', 'From Location',
+        domain=[
+            ('type', 'in', ['view', 'storage']),
+        ], states={
+            'required': Bool(Eval('catalogue')),
+        })
+
     location = fields.Many2One('stock.location', 'Location',
         domain=[
             ('type', '=', 'storage'),

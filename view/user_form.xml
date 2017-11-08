@@ -4,6 +4,8 @@ this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook" position="inside">
         <page string="Locations" id="locations">
+            <label name="from_location"/>
+            <field name="from_location"/>
             <label name="location"/>
             <field name="location"/>
             <newline/>
