@@ -14,7 +14,6 @@ class Catalogue(ModelSQL, ModelView):
     name = fields.Char('Name', required=True)
     code = fields.Function(fields.Integer('Code', readonly=True),
             'get_code_value')
-    users = fields.One2Many('res.user', 'catalogue', 'Users')
     location = fields.Many2One('stock.location', 'Location', required=True,
         help='Location which will be used for the \'From location\' field')
 
