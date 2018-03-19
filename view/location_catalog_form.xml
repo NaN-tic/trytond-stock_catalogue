@@ -12,8 +12,5 @@ this repository contains the full copyright notices and license terms. -->
           <page string="Lines" id="lines">
             <field name="lines" colspan="4"/>
           </page>
-          <page string="Users" id="users">
-            <field name="users" widget="many2many"/>
-          </page>
         </notebook>
 </form>
