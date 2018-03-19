@@ -5,25 +5,17 @@ from trytond.pool import PoolMeta
 from trytond.pyson import Eval, Bool
 
 __all__ = ['User', 'UserCatalogue']
-__metaclass__ = PoolMeta
 
 
 class User:
+    __metaclass__ = PoolMeta
     __name__ = 'res.user'
-
-    @classmethod
-    def __setup__(cls):
-        super(User, cls).__setup__()
-        cls._context_fields.insert(0, 'catalogues')
-
-    catalogue = fields.Many2One('stock.location.catalogue', 'Catalogue')
     from_location = fields.Many2One('stock.location', 'From Location',
         domain=[
             ('type', 'in', ['view', 'storage']),
         ], states={
             'required': Bool(Eval('catalogue')),
         })
-
     location = fields.Many2One('stock.location', 'Location',
         domain=[
             ('type', '=', 'storage'),
@@ -32,6 +24,11 @@ class User:
         })
     catalogues = fields.Many2Many('res.user-stock.location.catalogue', 'user',
         'catalogue', 'Catalogues')
+
+    @classmethod
+    def __setup__(cls):
+        super(User, cls).__setup__()
+        cls._context_fields.insert(0, 'catalogues')
 
 
 class UserCatalogue(ModelSQL, ModelView):
