@@ -6,7 +6,6 @@ msgctxt "field:res.user,catalogues:"
 msgid "Catalogues"
 msgstr "Catàlegs"
 
-#, fuzzy
 msgctxt "field:res.user,from_location:"
 msgid "From Location"
 msgstr "D'ubicació"
