@@ -4,10 +4,10 @@ this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook" position="inside">
         <page string="Locations" id="locations">
-            <label name="from_location"/>
-            <field name="from_location"/>
-            <label name="location"/>
-            <field name="location"/>
+            <label name="catalogue_from_location"/>
+            <field name="catalogue_from_location"/>
+            <label name="catalogue_to_location"/>
+            <field name="catalogue_to_location"/>
             <newline/>
             <field name="catalogues" colspan="4"/>
         </page>
