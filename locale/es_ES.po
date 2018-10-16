@@ -6,13 +6,13 @@ msgctxt "field:res.user,catalogues:"
 msgid "Catalogues"
 msgstr "Catálogos"
 
-msgctxt "field:res.user,from_location:"
+msgctxt "field:res.user,catalogue_from_location:"
 msgid "From Location"
 msgstr "Desde ubicación"
 
-msgctxt "field:res.user,location:"
-msgid "Location"
-msgstr "Ubicación"
+msgctxt "field:res.user,catalogue_to_location:"
+msgid "To Location"
+msgstr "A ubicación"
 
 msgctxt "field:res.user-stock.location.catalogue,catalogue:"
 msgid "Catalogue"
@@ -28,7 +28,7 @@ msgstr "Usuario de creación"
 
 msgctxt "field:res.user-stock.location.catalogue,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:res.user-stock.location.catalogue,rec_name:"
 msgid "Name"
@@ -40,11 +40,11 @@ msgstr "Usuario"
 
 msgctxt "field:res.user-stock.location.catalogue,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:res.user-stock.location.catalogue,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "field:stock.location.catalogue,code:"
 msgid "Code"
@@ -64,7 +64,7 @@ msgstr "ID"
 
 msgctxt "field:stock.location.catalogue,lines:"
 msgid "Lines"
-msgstr "Lineas"
+msgstr "Líneas"
 
 msgctxt "field:stock.location.catalogue,location:"
 msgid "Location"
