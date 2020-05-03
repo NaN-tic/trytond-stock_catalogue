@@ -3,8 +3,6 @@
 #the full copyright notices and license terms.
 from trytond.model import ModelView, ModelSQL, fields
 
-__all__ = ['Catalogue', 'CatalogueLine']
-
 
 class Catalogue(ModelSQL, ModelView):
     'Catalogue of products for a warehouse'
