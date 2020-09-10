@@ -45,20 +45,5 @@ this repository contains the full copyright notices and license terms. -->
             <field name="type">tree</field>
             <field name="name">location_catalog_line_tree</field>
         </record>
-
-        <record model="ir.action.act_window" id="act_location_catalog_line_form">
-            <field name="name">Catalogs</field>
-            <field name="res_model">stock.location.catalogue</field>
-        </record>
-        <record model="ir.action.act_window.view" id="act_location_catalog_line_form_view1">
-            <field name="sequence" eval="1"/>
-            <field name="view" ref="location_catalog_line_view_tree"/>
-            <field name="act_window" ref="act_location_catalog_line_form"/>
-        </record>
-        <record model="ir.action.act_window.view" id="act_location_catalog_line_form_view2">
-            <field name="sequence" eval="2"/>
-            <field name="view" ref="location_catalog_line_view_form"/>
-            <field name="act_window" ref="act_location_catalog_line_form"/>
-        </record>
     </data>
 </tryton>
