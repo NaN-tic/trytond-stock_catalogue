@@ -2,13 +2,49 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:res.user,catalogue:"
-msgid "Catalogue"
-msgstr "Catàlogo"
+msgctxt "field:res.user,catalogue_from_location:"
+msgid "From Location"
+msgstr "Desde ubicación"
 
-msgctxt "field:res.user,location:"
-msgid "Location"
-msgstr "Ubicación"
+msgctxt "field:res.user,catalogue_to_location:"
+msgid "To Location"
+msgstr "A ubicación"
+
+msgctxt "field:res.user,catalogues:"
+msgid "Catalogues"
+msgstr "Catálogos"
+
+msgctxt "field:res.user-stock.location.catalogue,catalogue:"
+msgid "Catalogue"
+msgstr "Catálogo"
+
+msgctxt "field:res.user-stock.location.catalogue,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:res.user-stock.location.catalogue,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:res.user-stock.location.catalogue,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:res.user-stock.location.catalogue,rec_name:"
+msgid "Record Name"
+msgstr "Nombre del registro"
+
+msgctxt "field:res.user-stock.location.catalogue,user:"
+msgid "User"
+msgstr "Usuario"
+
+msgctxt "field:res.user-stock.location.catalogue,write_date:"
+msgid "Write Date"
+msgstr "Fecha de modificación"
+
+msgctxt "field:res.user-stock.location.catalogue,write_uid:"
+msgid "Write User"
+msgstr "Usuario de modificación"
 
 msgctxt "field:stock.location.catalogue,code:"
 msgid "Code"
@@ -39,12 +75,8 @@ msgid "Name"
 msgstr "Nombre"
 
 msgctxt "field:stock.location.catalogue,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nombre"
-
-msgctxt "field:stock.location.catalogue,users:"
-msgid "Users"
-msgstr "Usuarios"
 
 msgctxt "field:stock.location.catalogue,write_date:"
 msgid "Write Date"
@@ -83,8 +115,16 @@ msgid "Product"
 msgstr "Producto"
 
 msgctxt "field:stock.location.catalogue.line,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nombre"
+
+msgctxt "field:stock.location.catalogue.line,sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:stock.location.catalogue.line,unit_digits:"
+msgid "Unit Digits"
+msgstr "Decimales de la unidad"
 
 msgctxt "field:stock.location.catalogue.line,write_date:"
 msgid "Write Date"
@@ -108,6 +148,10 @@ msgctxt "model:ir.ui.menu,name:menu_catalogs"
 msgid "Catalogs"
 msgstr "Catálogos"
 
+msgctxt "model:res.user-stock.location.catalogue,name:"
+msgid "User - Catalogue"
+msgstr "Usuario - Catálogo"
+
 msgctxt "model:stock.location.catalogue,name:"
 msgid "Catalogue of products for a warehouse"
 msgstr "Catálogo de productes per un magatzem"
@@ -122,20 +166,8 @@ msgstr "Ubicaciones"
 
 msgctxt "view:stock.location.catalogue.line:"
 msgid "Catalogs"
-msgstr "Catàlogos"
-
-msgctxt "view:stock.location.catalogue:"
-msgid "Catalog"
-msgstr "Catálogo"
-
-msgctxt "view:stock.location.catalogue:"
-msgid "Catalogs"
-msgstr "Catàlogos"
+msgstr "Catálogos"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Lines"
 msgstr "LIneas"
-
-msgctxt "view:stock.location.catalogue:"
-msgid "Users"
-msgstr "Usuarios"
