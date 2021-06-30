@@ -64,7 +64,7 @@ msgstr "ID"
 
 msgctxt "field:stock.location.catalogue,lines:"
 msgid "Lines"
-msgstr "Lineas"
+msgstr "Líneas"
 
 msgctxt "field:stock.location.catalogue,location:"
 msgid "Location"
@@ -158,7 +158,7 @@ msgstr "Catálogo de productes per un magatzem"
 
 msgctxt "model:stock.location.catalogue.line,name:"
 msgid "Lines of products for a catalogue"
-msgstr "Lineas de productos para un catàlogo"
+msgstr "Líneas de productos para un catàlogo"
 
 msgctxt "view:res.user:"
 msgid "Locations"
@@ -170,4 +170,4 @@ msgstr "Catálogos"
 
 msgctxt "view:stock.location.catalogue:"
 msgid "Lines"
-msgstr "LIneas"
+msgstr "Líneas"
