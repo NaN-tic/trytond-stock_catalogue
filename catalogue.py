@@ -2,7 +2,6 @@
 #The COPYRIGHT file at the top level of this repository contains
 #the full copyright notices and license terms.
 from trytond.model import ModelView, ModelSQL, fields, sequence_ordered
-from trytond.pyson import Eval
 
 
 class Catalogue(ModelSQL, ModelView):
@@ -26,13 +25,12 @@ class CatalogueLine(sequence_ordered(), ModelSQL, ModelView):
         required=True, readonly=True, ondelete='CASCADE')
     product = fields.Many2One('product.product', 'Product', required=True)
     max_quantity = fields.Float('Maximum quantity', required=True,
-        digits=(16, Eval('unit_digits', 2)), depends=['unit_digits'])
+        digits='unit')
     notes = fields.Char('Notes')
-    unit_digits = fields.Function(fields.Integer('Unit Digits'),
-        'on_change_with_unit_digits')
+    unit = fields.Function(fields.Many2One('product.uom', "Unit",),
+        'on_change_with_unit')
 
     @fields.depends('product')
-    def on_change_with_unit_digits(self, name=None):
+    def on_change_with_unit(self, name=None):
         if self.product:
-            return self.product.default_uom.digits
-        return 2
+            return self.product.default_uom.id

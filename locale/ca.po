@@ -122,9 +122,9 @@ msgctxt "field:stock.location.catalogue.line,sequence:"
 msgid "Sequence"
 msgstr "Seqüència"
 
-msgctxt "field:stock.location.catalogue.line,unit_digits:"
-msgid "Unit Digits"
-msgstr "Decimals de la unitat"
+msgctxt "field:stock.location.catalogue.line,unit:"
+msgid "Unit"
+msgstr "Unitat"
 
 msgctxt "field:stock.location.catalogue.line,write_date:"
 msgid "Write Date"
