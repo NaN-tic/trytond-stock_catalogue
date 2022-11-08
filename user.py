@@ -36,6 +36,6 @@ class UserCatalogue(ModelSQL, ModelView):
     'User - Catalogue'
     __name__ = 'res.user-stock.location.catalogue'
     user = fields.Many2One('res.user', 'User', ondelete='CASCADE',
-        required=True, select=True)
+        required=True)
     catalogue = fields.Many2One('stock.location.catalogue', 'Catalogue',
-        ondelete='CASCADE', required=True, select=True)
+        ondelete='CASCADE', required=True)
