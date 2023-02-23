@@ -13,13 +13,13 @@ class User(metaclass=PoolMeta):
         domain=[
             ('type', 'in', ['view', 'storage']),
         ], states={
-            'required': Bool(Eval('catalogue')),
+            'required': Bool(Eval('catalogues')),
         })
     catalogue_to_location = fields.Many2One('stock.location', 'To Location',
         domain=[
             ('type', '=', 'storage'),
         ], states={
-            'required': Bool(Eval('catalogue')),
+            'required': Bool(Eval('catalogues')),
         })
     catalogues = fields.Many2Many('res.user-stock.location.catalogue', 'user',
         'catalogue', 'Catalogues')
