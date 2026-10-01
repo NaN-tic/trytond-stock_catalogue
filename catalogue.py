@@ -22,7 +22,9 @@ class CatalogueLine(sequence_ordered(), ModelSQL, ModelView):
     __name__ = 'stock.location.catalogue.line'
 
     catalogue = fields.Many2One('stock.location.catalogue', 'Catalogue',
-        required=True, readonly=True, ondelete='CASCADE')
+        required=True, ondelete='CASCADE', states={
+            'editable': False,
+            })
     product = fields.Many2One('product.product', 'Product', required=True)
     max_quantity = fields.Float('Maximum quantity', required=True,
         digits='unit')
